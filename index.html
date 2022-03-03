@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta
+			name="description"
+			content="This is Fluffy Pony's website. "
+		/>    
+		<!--  
+		manifest.json provides metadata used when your web app is installed on a
+		user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+		-->
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+		<link rel="stylesheet" href="./src/index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="./src/index.js"></script>
+		<!--
+		Notice the use of %PUBLIC_URL% in the tags above.
+		It will be replaced with the URL of the `public` folder during the build.
+		Only files inside the `public` folder can be referenced from the HTML.
+		-->
+		<title>FluffyPony</title>
+	</head>
+	<body>
+		<img src="./src/MyThumb.png" class="img-my-thumb"></img>
+		<!-- Self Introduction -->
+		<div class="container container-main">
+			<h1 id="selfIntroduction1">哈囉！</h1>
+			<div class="container container-flex container-flex-center container-width-fit container-no-margin container-no-padding">
+				<h1 id="selfIntroduction2-1" class="inline-block">我叫做</h1>
+				<div class="context-switcher inline-block" id="contextSwitcher">
+					<div class="container container-flex container-flex-center context-switcher-children">
+						<h1>程書彥</h1>
+					</div>
+					<div class="container container-flex container-flex-center context-switcher-children">
+						<h1>小馬</h1>
+					</div>
+					<div class="container container-flex container-flex-center context-switcher-children">
+						<h1>Albert</h1>
+					</div>
+					<div class="container container-flex container-flex-center context-switcher-children">
+						<h1>奏亮</h1>
+					</div>
+					<div class="container container-flex container-flex-center context-switcher-children">
+						<h1>FluffyPony</h1>
+					</div>
+				</div>
+				<h1 id="selfIntroduction2-2" class="inline-block">。</h1>
+			</div>
+			<h1 id="selfIntroduction3">很高興認識你！</h1>
+		</div>
+	</body>
+</html>
